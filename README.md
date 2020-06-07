@@ -28,6 +28,11 @@ git clone git@github.com:bellatrixdatacommunity/lets-blog.git
 cd lets-blog
 ```
 
+#### Make a new branch using following command
+```sh
+git checkout -b "<your-branch>"
+```
+
 #### Create a Virtual Environment and activate it
 ```sh
 python -m venv venv
@@ -48,4 +53,23 @@ python manage.py migrate
 #### Starting the Server
 ```sh
 python manage.py runserver
+```
+
+```txt
+Code .... .... ....
+.... Code .... ....
+.... .... Code ....
+.... .... .... Code
+```
+
+#### Stage your changes, commit, and push using the following commands
+```sh
+git add .
+git commit -m "<commit message>"
+git push origin "<your-branch>"
+```
+
+#### Deactivate your Virtual Environment
+```sh
+source deactivate
 ```
