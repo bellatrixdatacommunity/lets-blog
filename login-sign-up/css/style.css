@@ -1,0 +1,91 @@
+body{
+    margin: 4px;
+    padding: 2px;
+    background: #32064a;
+    font-size: 20px;
+    color: #cae7df;
+    font-family: cursive;
+    
+}
+
+#login
+{
+    position:absolute;
+    margin: 5% auto;
+    height: 500px;
+    background-color: #32064a;
+    box-shadow: 0 2px 4px rgb(0,0,0);
+}
+
+.left
+{
+    position: absolute;
+    top:0;
+    left: 0;
+    box-sizing: border-box;
+    padding: 40px;
+    width: 300px;
+    height: 500px;
+
+}
+h1{
+    margin: 30px auto;
+    text-align: center;
+   
+    
+}
+
+input[type="text"],input[type="password"]{
+    display: block;
+    position: relative;
+    width: 200px;
+    height: 40px;
+    margin: 0 auto 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #aaa;
+    background: black;
+    color: #cae7df;
+    
+    
+}
+h3{
+    text-align: center;
+    color: #cae7ff;
+    margin: 0 auto 0;
+}
+input[type="button"]{
+    display: block;
+    margin: 0 auto;
+    
+    text-align: center;
+    width: 120px;
+    height: 32px;
+    background: #cae7ff;
+    border: none;
+    border-radius: 2px;
+    color: #32064a;
+    font-size: 25px;
+}
+
+.back{
+    display:block;
+    margin: 15px auto;
+    padding: 50px;
+    width: 500px;
+    height: 400px;;
+    background-image: url("../images/1_2UYnnJKYwLM4_TATq2f06g.jpeg");
+    background-size: 600px 400px;
+    background-repeat: no-repeat;
+}
+a{
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    text-decoration: none;
+    color: aliceblue;
+    border: outset 1px;
+    width: 100px;
+}
