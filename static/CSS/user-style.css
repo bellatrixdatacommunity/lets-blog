@@ -1,0 +1,20 @@
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+    .row.content {height: 550px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {font-size: 15px;
+  font-weight: 500;
+  font-family: 'Hanalei Fill', cursive;
+  color: #7a7a7a;
+   background-color: #fffff1;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 20px 52px;
+      background-color: #f1f1f1;
+      height: 100%;
+    }
+        
+    /* On small screens, set height to 'auto' for the grid */
+    @media screen and (max-width: 767px) {
+      .row.content {height: auto;} 
+    }

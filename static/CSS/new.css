@@ -1,0 +1,178 @@
+
+
+.top{
+  display:block;
+  position:fixed;
+  top: 0;
+  width: 100%;
+  min-height: 80px; 
+  box-shadow: 0px 2px 8px #ccc;
+  background-color:#ffffff;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+  
+ 
+  
+}
+
+#main-heading {
+        
+        font-size: 52px;
+        color: #fba70b;
+        font-weight: 900;
+        font-family: "Poppins", sans-serif;
+        display:block;
+        
+        background-color:rgba(0,0,0,0.5);
+        
+      }
+nav a{
+    font-size: 30px;
+  font-weight: 500;
+  font-family: 'Hanalei Fill', cursive;
+  color: #7a7a7a;
+   background-color: #fffff1;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 20px 52px;
+ 
+
+}
+nav a:hover{
+  color: #fba70b;
+}
+
+
+ #txt-create{
+      color: #cc3300;
+}
+
+h1{
+  color: #cc3300;
+  font-size: 60px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+p{
+  font-size:23px;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://storage.needpix.com/rsynced_images/aerial-3246120_1280.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+/*footer*/
+.back{
+  display:block;
+    width: 40%;
+   height: 45%;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+    background-color:rgba(0,0,0,0.5);
+}
+#fp{
+  color:dark blue;
+  letter-spacing: 1px;
+  font-size:20px;
+}
+#center{
+   display:block;
+    margin: 10 auto;
+    text-align: center;
+    font-size:25px;
+    
+  
+}
+
+#sign{
+    display:block;
+    margin: 15px auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 180px;
+    height: 40px;
+    border: none;
+    font-size: 25px;
+    background-color: #fba70b;
+    color: #ffffff;
+    text-decoration:none;
+    letter-spacing: 1px;
+    padding: 10px 25px;
+    border-radius: 25px;
+   
+  
+}
+#sign:hover{
+  background-color: #cc3300;
+}
+footer{
+  display:block;
+  width: 100%;
+  min-height: 80px; 
+  box-shadow: 0px 2px 8px #ccc;
+  background-color:#ffffff;
+  text-align:center;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+}
+footer a{
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Hanalei Fill', cursive;
+  background-color: #fffff1;
+  color: #7a7a7a;
+  text-decoration: none;
+  letter-spacing: 1px;
+  padding: 20px 52px;
+  
+}
+footer a:hover{
+  color: #fba70b;
+}
