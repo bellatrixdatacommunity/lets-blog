@@ -1,0 +1,262 @@
+
+
+h1{
+  color: #cc3300;
+  font-size: 60px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+p{
+  font-size:23px;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("https://storage.needpix.com/rsynced_images/aerial-3246120_1280.jpg");
+
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+
+
+
+
+/*footer*/
+
+#fp{
+  color:dark blue;
+  letter-spacing: 1px;
+  font-size:20px;
+}
+#center{
+   display:block;
+    margin: 10 auto;
+    text-align: center;
+    font-size:25px;
+    
+  
+}
+
+#sign{
+    display:block;
+    margin: 15px auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 180px;
+    height: 40px;
+    border: none;
+    font-size: 25px;
+    background-color: #fba70b;
+    color: #ffffff;
+    text-decoration:none;
+    letter-spacing: 1px;
+    padding: 10px 25px;
+    border-radius: 25px;
+   
+  
+}
+#sign:hover{
+  background-color: #cc3300;
+}
+footer{
+  display:block;
+  width: 100%;
+  min-height: 80px; 
+  box-shadow: 0px 2px 8px #ccc;
+  background-color:#ffffff;
+  text-align:center;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+}
+footer a:hover{
+  color: #fba70b;
+}
+
+.segment-four form input[type=submit]{
+    background: black;
+    border:none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    margin-top: 6px;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+
+#search1
+{ padding-top: 9px !important;
+  float:right !important ;
+}
+.read-more-btn{
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color:#fff;
+    border:none!important;
+}
+
+.footer-top{
+      background-color: rgba(0, 109, 119,0.5) ;
+    padding: 50px 0;
+    margin-top: 30px ;
+}
+.segment-one h3{
+    font-family:'Courier New', Courier, monospace;
+
+    letter-spacing: 2px;
+    font-size: 40px ;
+    margin: 10px 0;
+}
+.segment-two h2{
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.segment-two h2:before{
+    content: '|';
+    color:#c65039;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255, 255, 0.3);
+    line-height: 30px;
+}
+.segment-two ul li a{
+    color:black;
+    text-decoration: none;
+}
+.segment-three h2{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+  }
+.segment-three h2:before{
+    content: '|';
+    color:#c65039;
+    padding-right: 10px;
+}
+.segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color:#fff;
+    padding: 10px 12px;
+}
+.segment-four h2{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+.segment-four h2:before{
+    content: '|';
+    color:#c65039;
+    padding-right: 10px;
+}
+
+.bg-text {
+  background-color: rgb(107, 89, 62); /* Fallback color */
+  background-color: rgba(107, 89, 62, 0.7); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 50px;
+  text-align: center;
+}
+h1,h3
+{ text-align: center ;
+  font-family: 'ZCOOL XiaoWei', serif;
+color: black  ;
+ background-color: rgba(242, 240, 237,0.5) ;
+}
+
+h3{
+  color: #012d73 !important;
+font-family: 'Special Elite', cursive;
+}
+
+ul{
+    float: right ;
+    list-style-type:none;
+    margin-top: 25px;
+
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border:1px solid #fff transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color:black;
+}
+ul li.active a{
+    background-color: #fff;
+    color:black;
+}
+.footer-bottom-text{
+    text-align: center;
+    background: white;
+    line-height: 70px;
+}
+.card-deck
+{ align: center ;
+  margin-left:  14% ;
+  margin-right: 14% ;
+}

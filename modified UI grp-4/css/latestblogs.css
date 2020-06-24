@@ -1,0 +1,198 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #efefef !important;
+    border: 40px  solid ;
+    border-top: 0px ;
+}
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 25px;
+
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border:1px solid #fff transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color:black;
+}
+ul li.active a{
+    background-color: #fff;
+    color:black;
+}
+
+input{
+    border:3px solid #007bff;
+    border-radius: 50px;
+    padding: 0px 10px;
+}
+.blog-1-img{
+    height: 200px;
+    width: 300px;
+}
+.single-blog{
+    box-shadow: 0px 0px 20px 1px rgba(0,0,00.2);
+    padding: 10px;
+    margin: 10px;
+    margin-top: 30px;
+    background-color: #fff;
+}
+.single-blog img{
+    width: 100%;
+}
+
+.blog-meta{
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.single-blog span{
+    float:right;
+    font-size: 12px;
+    color: cornflowerblue;
+}
+.blog-text{
+    font-size: 14px;
+    text-align: justify;
+}
+.single-blog h2{
+    margin-top: 10px;
+    font-size: 16px;
+    color:#007bff;
+}
+.single-blog h2 a{
+    text-decoration: none;
+}
+.read-more-btn{
+    background-image: linear-gradient(to right,#1c03b5,#5c8bef);
+    padding: 5px 12px 8px;
+    border-radius: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color:#fff;
+    border:none!important;
+}
+.read-more-btn:hover{
+    background-image: linear-gradient(to right,#006417,#00b128);
+    text-decoration: none;
+    color: #fff;
+}
+.footer-top{
+      background-color: rgba(0, 109, 119,0.5) ;
+    padding: 50px 0;
+    margin-top: 30px ;
+}
+.segment-one h3{
+    font-family:'Courier New', Courier, monospace;
+
+    letter-spacing: 2px;
+    font-size: 40px ;
+    margin: 10px 0;
+}
+.segment-two h2{
+    font-family:'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+.segment-two h2:before{
+    content: '|';
+    color:#c65039;
+    padding-right: 10px;
+}
+.segment-two ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.segment-two ul li{
+    border-bottom: 1px solid rgba(255,255, 255, 0.3);
+    line-height: 30px;
+}
+.segment-two ul li a{
+    color:black;
+    text-decoration: none;
+}
+.segment-three h2{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+  }
+.segment-three h2:before{
+    content: '|';
+    color:#c65039;
+    padding-right: 10px;
+}
+.segment-three a{
+    background: #494848;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color:#fff;
+    padding: 10px 12px;
+}
+.segment-four h2{
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+.segment-four h2:before{
+    content: '|';
+    color:#c65039;
+    padding-right: 10px;
+}
+.segment-four form input[type=submit]{
+    background: black;
+    border:none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    margin-top: 6px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.footer-bottom-text{
+    text-align: center;
+    background: white;
+    line-height: 70px;
+}
+footer{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+h1,h3
+{ text-align: center ;
+  font-family: 'ZCOOL XiaoWei', serif;
+color: black  ;
+ background-color: rgba(242, 240, 237,0.5) ;
+}
+
+h3{
+  color: #012d73 !important;
+font-family: 'Special Elite', cursive;
+}
+
+
+.bg-image {
+  background-image: url("https://image.freepik.com/free-photo/top-view-pencil-black-coffee-laptop-notebook-office-desk-background_1921-188.jpg") !important ;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
