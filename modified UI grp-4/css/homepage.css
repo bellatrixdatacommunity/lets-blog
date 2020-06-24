@@ -1,7 +1,18 @@
+
+
+h1{
+  color: #cc3300;
+  font-size: 60px;
+  font-family: 'Ubuntu', sans-serif;
+
+}
+p{
+  font-size:23px;
+}
+
 body, html {
   height: 100%;
 }
-
 
 * {
   box-sizing: border-box;
@@ -9,11 +20,11 @@ body, html {
 
 .bg-image {
   /* The image used */
-  background-image: url("https://image.freepik.com/free-photo/top-view-pencil-black-coffee-laptop-notebook-office-desk-background_1921-188.jpg");
+  background-image: url("https://storage.needpix.com/rsynced_images/aerial-3246120_1280.jpg");
 
   /* Add the blur effect */
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
 
   /* Full height */
   height: 100%;
@@ -26,71 +37,89 @@ body, html {
 
 /* Position text in the middle of the page/image */
 .bg-text {
-  background-color: rgb(107, 89, 62); /* Fallback color */
-  background-color: rgba(107, 89, 62, 0.7); /* Black w/opacity/see-through */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
   color: white;
   font-weight: bold;
   border: 3px solid #f1f1f1;
   position: absolute;
-  top: 70%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 2;
-  width: 60%;
-  padding: 50px;
+  width: 80%;
+  padding: 20px;
   text-align: center;
 }
-h1,h3
-{ text-align: center ;
-  font-family: 'ZCOOL XiaoWei', serif;
-color: black  ;
- background-color: rgba(242, 240, 237,0.5) ;
+
+
+
+
+
+/*footer*/
+
+#fp{
+  color:dark blue;
+  letter-spacing: 1px;
+  font-size:20px;
+}
+#center{
+   display:block;
+    margin: 10 auto;
+    text-align: center;
+    font-size:25px;
+    
+  
 }
 
-h3{
-  color: #012d73 !important;
-font-family: 'Special Elite', cursive;
+#sign{
+    display:block;
+    margin: 15px auto;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    width: 180px;
+    height: 40px;
+    border: none;
+    font-size: 25px;
+    background-color: #fba70b;
+    color: #ffffff;
+    text-decoration:none;
+    letter-spacing: 1px;
+    padding: 10px 25px;
+    border-radius: 25px;
+   
+  
+}
+#sign:hover{
+  background-color: #cc3300;
+}
+footer{
+  display:block;
+  width: 100%;
+  min-height: 80px; 
+  box-shadow: 0px 2px 8px #ccc;
+  background-color:#ffffff;
+  text-align:center;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: space-between;
+}
+footer a:hover{
+  color: #fba70b;
 }
 
-ul{
-    float: right ;
-    list-style-type:none;
-    margin-top: 25px;
-
-}
-ul li{
-    display:inline-block;
-}
-ul li a{
-    text-decoration: none;
-    color:white;
-    padding: 5px 20px;
-    border:1px solid #fff transparent;
-    transition: 0.6s ease;
-}
-ul li a:hover{
-    background-color: #fff;
-    color:black;
-}
-ul li.active a{
-    background-color: #fff;
-    color:black;
-}
-header{
-  padding: 0px;
-  border-radius: 50px;
-  margin-top: 10px;
-  margin-left: 7px;
-  margin-right: 7px;
-  margin-bottom: 0px ;
-    background-color: rgba(0, 109, 119,0.5) ;
+.segment-four form input[type=submit]{
+    background: black;
+    border:none;
+    padding: 3px 15px;
+    margin-left: -5px;
+    margin-top: 6px;
+    color: #fff;
+    text-transform: uppercase;
 }
 
-input{
-    border:3px solid #007bff;
-    border-radius: 50px;
-    padding: 0px 10px;
-}
+
 
 #search1
 { padding-top: 9px !important;
@@ -169,31 +198,65 @@ input{
     color:#c65039;
     padding-right: 10px;
 }
-.segment-four form input[type=submit]{
-    background: black;
-    border:none;
-    padding: 3px 15px;
-    margin-left: -5px;
-    margin-top: 6px;
-    color: #fff;
-    text-transform: uppercase;
+
+.bg-text {
+  background-color: rgb(107, 89, 62); /* Fallback color */
+  background-color: rgba(107, 89, 62, 0.7); /* Black w/opacity/see-through */
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 60%;
+  padding: 50px;
+  text-align: center;
+}
+h1,h3
+{ text-align: center ;
+  font-family: 'ZCOOL XiaoWei', serif;
+color: black  ;
+ background-color: rgba(242, 240, 237,0.5) ;
+}
+
+h3{
+  color: #012d73 !important;
+font-family: 'Special Elite', cursive;
+}
+
+ul{
+    float: right ;
+    list-style-type:none;
+    margin-top: 25px;
+
+}
+ul li{
+    display:inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:white;
+    padding: 5px 20px;
+    border:1px solid #fff transparent;
+    transition: 0.6s ease;
+}
+ul li a:hover{
+    background-color: #fff;
+    color:black;
+}
+ul li.active a{
+    background-color: #fff;
+    color:black;
 }
 .footer-bottom-text{
     text-align: center;
     background: white;
     line-height: 70px;
 }
-footer{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 10px;
-
-}
 .card-deck
 { align: center ;
   margin-left:  14% ;
   margin-right: 14% ;
-}
-#heading{
-  background-color: rgba(127, 207, 250,0.5) ;
 }
